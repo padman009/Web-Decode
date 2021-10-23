@@ -1,0 +1,15 @@
+.post + h1 {
+    color: red;
+}
+
+#post1, #post2 {
+    color: red;
+}
+
+.post{
+    display: inline;
+}
+
+#WORLD{
+    text-align: center;
+}
