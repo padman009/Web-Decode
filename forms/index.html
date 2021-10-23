@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container main">
+        <div class="container form">
+            <form>
+                <h2>Выберите обед: </h2>
+                <h3>Чекбоксы</h3>
+                <h4>(Можно выбрать любое количество вариантов)</h4>
+                <input id="first_food" type="checkbox" name="food" value="first">
+                <label for="first_food">Первое</label>
+                <br>
+                <input id="second_food" type="checkbox" name="food" value="second">
+                <label for="second_food">Второе</label>
+                <br>
+                <input id="complex_food" type="checkbox" name="food" value="complex">
+                <label for="complex_food">Комплексный</label>
+                <br>
+
+                <h3>Радио-кнопки</h3>
+                <h4>(Можно выбрать только один вариант)</h4>
+                <label for="male">Мужской</label>
+                <input id="male" type="radio" name="gender" value="male">
+                <br>
+                <label for="female">Женский</label>
+                <input id="female" type="radio" name="gender" value="female">
+                <br>
+                <label for="other">Другой</label>
+                <input id="other" type="radio" name="gender" value="other">
+                <br>
+                
+                <label for="birth">День рождения</label>
+                <input type="date" name="birth" id="birth">
+                <br>
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="age">Возраст</label>
+                <input type="number" name="age" id="age">
+                <br>
+                <label for="city">Город</label>
+                <select name="city" id="city">
+                    <option value=""></option>
+                    <option value="nur-sultan">Нур - Султан</option>
+                    <option value="almaty">Алматы</option>
+                    <option value="turkistan">Туркестан</option>
+                </select>
+                <br>
+                <label for="email">Почта</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="pass">Пароль</label>
+                <input type="password" id="pass" name="pass">
+                <input type="checkbox" name="visible_pass" id="visible_pass">
+                <label for="visible_pass">Показать пароль</label>
+                <br>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
