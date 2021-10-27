@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    /* background-color: pink; */
+    width: max-content;
+}
+
+form input{
+    margin: 10px 0px;
+}
+
+input[type="checkbox"] + label:hover{
+    color:red;
+}
+
+div:empty{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+input[type="submit"]:active{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+input[type="checkbox"]:checked + label{
+    color:green;
+    font-size: 30px;
+}
+
+label:nth-of-type(2){
+    font-size: 72px;
+}
+
+h4:first-of-type{
+    direction: rtl;
+}
+
+h4:dir(rtl){
+    color: purple;
+}
+
+.btn{
+    margin: 20px 10px;
+}
+
+.btn:disabled{
+    background-color: gray;
+}
+
+a::after{
+    content: "→";
+}
+
+li::marker{
+    color: blue;
+    font-size: 1.2em;
+    
+}
